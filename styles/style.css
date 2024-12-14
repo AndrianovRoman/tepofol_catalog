@@ -1,0 +1,367 @@
+@import "fonts.css";
+
+/*main-block*/
+
+.main-block {
+    background: #f3f3f3;
+    border-radius: 20px;
+    padding: 40px;
+    margin-bottom: 40px;
+
+    background-image: url("../images/Main image.png");
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.main-block-content {
+    max-width: 659px;
+}
+
+.main-block-content-number {
+    font-family: Montserrat, sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 125%;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+.main-block-content-title {
+    font-family: Literata, sans-serif;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 120%;
+    color: #474747;
+    margin-bottom: 10px;
+}
+
+.main-block-content-description {
+    font-family: Montserrat, sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 156%;
+    color: #474747;
+    margin-bottom: 20px;
+}
+
+.main-block-content-button button {
+    border: 1px solid #dc130d;
+    border-radius: 10px;
+    padding: 10px 20px;
+    background: #dc130d;
+
+    font-family: Montserrat, sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 125%;
+    text-align: center;
+    color: #fff;
+}
+
+.main-category {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 80px;
+}
+
+.main-category-item {
+    border-radius: 10px;
+    padding: 20px;
+    background: #f3f3f3;
+    width: 360px;
+
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+.main-category-item-content {
+
+}
+
+.main-category-item-content-title {
+    font-family: Literata, sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 130%;
+    color: #333;
+    margin-bottom: 6px;
+    width: 155px;
+}
+
+.main-category-item-content-count {
+    font-family: Montserrat, sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 143%;
+    color: #999;
+}
+
+/*about*/
+
+.about {
+    margin-bottom: 100px;
+}
+
+.about-title {
+    font-family: Montserrat, sans-serif;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 135%;
+    color: #333;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.about-content {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.about-content-item {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.about-content-item-text {
+    max-width: 728px;
+}
+
+.about-content-item-text-item {
+    font-family: Montserrat, sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 140%;
+    color: #474747;
+    margin-bottom: 40px;
+}
+
+.about-content-item-text-item:last-child {
+    margin-bottom: 0;
+}
+
+.about-content-item-image {
+    max-width: 727px;
+    max-height: 396px;
+}
+
+.about-content-item-image img {
+    border-radius: 20px;
+    width: 100%;
+    height: 100%;
+}
+
+/*advantages*/
+
+.advantages {
+    margin-bottom: 100px;
+}
+
+.advantages-title {
+    font-family: Montserrat, sans-serif;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 135%;
+    color: #333;
+    margin-bottom: 40px;
+    max-width: 916px;
+}
+
+.advantages-items {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+    gap: 40px;
+}
+
+.advantages-items-item {
+    border-radius: 20px;
+    padding: 20px;
+    width: 450px;
+    background: #333;
+}
+
+.advantages-items-item-icon {
+    margin-bottom: 20px;
+}
+
+.advantages-items-item-title {
+    font-family: Montserrat, sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 135%;
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+.advantages-items-item-description {
+    font-family: Montserrat, sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 156%;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+
+/*production*/
+
+.production {
+    margin-bottom: 100px;
+}
+
+.production-title {
+    font-family: Montserrat, sans-serif;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 135%;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.production-content {
+
+}
+
+.production-content-item {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+.production-content-item-icon {
+    height: 32px;
+}
+
+.production-content-item-text {
+    font-family: Montserrat, sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 125%;
+    color: #474747;
+    max-width: 1064px;
+}
+
+/*application*/
+
+.application {
+    margin-bottom: 100px;
+}
+
+.application-title {
+    font-family: Montserrat, sans-serif;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 135%;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.application-subtitle {
+    font-family: Montserrat, sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 104%;
+    color: #666;
+    margin-bottom: 40px;
+}
+
+.application-content {
+    display: flex;
+    gap: 40px;
+}
+
+.application-content-item {
+    display: flex;
+    flex-direction: column;
+}
+
+.application-content-item-image {
+    margin-bottom: 20px;
+    max-width: 473px;
+    max-height: 473px;
+}
+
+.application-content-item-image img {
+    border-radius: 20px;
+    width: 100%;
+    height: 100%;
+}
+
+.application-content-item-title {
+    font-family: Montserrat, sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 125%;
+    color: #474747;
+    margin-bottom: 10px;
+    position: relative;
+    padding-right: 40px;
+}
+
+.application-content-item-title:after {
+    content: url("../images/arrow.png");
+    position: absolute;
+    right: 0;
+}
+
+.application-content-item-link {
+    font-family: Montserrat, sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 139%;
+    color: #474747;
+    margin-bottom: 5px;
+}
+
+.application-content-item-link:last-child {
+    margin-bottom: 0;
+}
+
+.application-content-item-link:hover,
+.application-content-item-title:hover {
+    color: #ed1c2b;
+}
+
+.application-content-item-title:hover:after {
+    content: url("../images/arrow-hover.png");
+}
+
+/*why*/
+
+.why {
+    margin-bottom: 100px;
+}
+
+.why-title {
+    font-family: Montserrat, sans-serif;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 135%;
+    color: #333;
+    margin-bottom: 40px;
+}
+
+.why-content-item {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+.why-content-item-icon {
+    height: 32px;
+}
+
+.why-content-item-text {
+    font-family: Montserrat, sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 125%;
+    color: #474747;
+    max-width: 1040px;
+}
